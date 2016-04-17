@@ -1,17 +1,17 @@
 """TODO:
-attempt to match printfs and scanfs (pretty easy)
+attempt to match printfs and scanfs
 
 match printfs to labdescriptor output names
 if single printf and or scanf, check the order
 otherwise when matched between input and  printf has been made, 
 check if scanf closest to it fits possible data type, if so match scanf closest to it
 
-attempt to match inputs to scanfs/printfs - if matching does not complete skip lab (not too hard) make match probabilistic FUCK
-generate script (ok i can do this too )
-parse script for answer (easy)
-handle files (easy)
+attempt to match inputs to scanfs/printfs - if matching does not complete skip lab make match probabilistic
+generate script
+parse script for answer
+handle files
 fopen redirect their command to open my test file instead
-debugging by checking every fucking lab (fuck)  
+debugging by checking every lab
 CONVERT LINE NUMBER TO ORDER
     -Have LIST OF FUNCTIONS searched for while reading lines of code to generate scan list
         -CREATE LIST OF FUNCTIONS
@@ -21,23 +21,16 @@ DETERMINE IF THE SCANF IS REPETITIVE
     -Determine how the loop terminates
 CONVERT FORMAT STRING TO EACH INDIVIDUAL ELEMENT
     -separate string based on '%' character as delimiter
-    
-    possibly write a function that removes whitespace
-        whitespace should only be after a ; or a { or } or define statement? or >
-        probably need to write this..
-        for each character, count conseq white space, if two delete second.
-        keep looping through file until there is a flag that checks that ther was no 2 conseq
-        then we're good :D
 
 handle when u need to compile with specific libraries
 check for these libaries
 math.h
 thread.h?
 
-if they are off by a small amount, check for it and only subtract a little (Anne)
+if they are off by a small amount, check for it and only subtract a little
 
 if no matches, could try brute forcing every test with that many # of inputs... 
-anything this bad may need human judgement (ous).. or just give them 50s.
+may need human judgement 
 
 any printf that is after the last scanf can be discarded because it is simply output and definitely not a prompt
 """
