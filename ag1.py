@@ -699,7 +699,7 @@ def consoleCheck(fileString, pos): #determines any scanfs that should be thrown 
                     continue
             elif fileString[pos] =='}' and bCount == 0: # } directly follows scanf
                     return True
-            else: #a valid scanf
+            else:
                     return False
                 
 def matchStudent(n): #matches students to program currently bSeing graded, returns index of that student
